@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "d3-force": "^3.0.0",
+    "force-graph": "^1.51.1"
+  },
+  "devDependencies": {
+    "@iktakahiro/markdown-it-katex": "^4.0.1",
+    "gray-matter": "^4.0.3",
+    "katex": "^0.16.33",
+    "tsx": "^4.21.0",
+    "vitepress": "^2.0.0-alpha.16"
+  },
+  "scripts": {
+    "predocs:dev": "tsx scripts/generate-graph.ts",
+    "docs:dev": "vitepress dev",
+    "predocs:build": "tsx scripts/generate-graph.ts",
+    "prebuild": "tsx scripts/generate-graph.ts",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
