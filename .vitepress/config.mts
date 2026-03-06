@@ -3,7 +3,7 @@ import katex from "@iktakahiro/markdown-it-katex";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/insane-vitepress/",
+  base: "/blogs/",
   head: [
     // Add KaTeX CSS (Updated to the full CDN path so it works!)
     [
